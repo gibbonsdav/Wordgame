@@ -1,0 +1,32 @@
+body {
+  display: flex;
+}
+
+#wordcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+#nextWord {
+  color: blue;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 560px;
+  top: 100px;
+}
+
+#buttons {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  font-size: xx-large;
+  width: 600px;
+}
+
+#turns {
+  position: absolute;
+  top: 550px;
+  left: 400px;
+  font-size: xx-large;
+}
