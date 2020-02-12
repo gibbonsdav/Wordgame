@@ -14,6 +14,7 @@ body {
   position: absolute;
   left: 560px;
   top: 100px;
+  letter-spacing: 10px;
 }
 
 #buttons {
@@ -29,4 +30,18 @@ body {
   top: 550px;
   left: 400px;
   font-size: xx-large;
+}
+
+#head {
+  position: absolute;
+  top: 93px;
+  left: 288px;
+  height: 75px;
+}
+
+#body {
+  position: absolute;
+  top: 166px;
+  left: 314px;
+  height: 100px;
 }

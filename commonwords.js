@@ -125,27 +125,28 @@ var commonWords = [
 
 // let wordstatus = null
 // let answer = " "
-// let guessed = []
 
-longer = []
-for (var i = 0; i < commonWords.length; i++) {
-  if (commonWords[i].length >= 3) longer.push(commonWords[i])
+// let guessed = ""
 
-  let randomWord = longer[Math.floor(Math.random() * longer.length)]
+// longer = []
+// for (var i = 0; i < commonWords.length; i++) {
+//   if (commonWords[i].length >= 3) longer.push(commonWords[i])
 
-  let selectedWord = longer[Math.floor(Math.random() * longer.length)]
+//   let randomWord = longer[Math.floor(Math.random() * longer.length)]
 
-  // let wordlength = selectedWord.length
+//   let selectedWord = longer[Math.floor(Math.random() * longer.length)]
 
-  document.querySelector("#nextWord").innerHTML = selectedWord
+//   document.querySelector("#nextWord").innerHTML = selectedWord
+// }
 
-  // function guessedword() {
-  //   wordstatus = answer
-  //     .split("")
-  //     .map(letter => (guessed.indexOf(letter) >= 0 ? letter : " _ "))
-  //     .join("")
-  //   document.getElementById("otherword").innerHTML = wordstatus
+// let wordlength = selectedWord.length
 
-  // var progressWord = []
-  // for (var i = 0; i < wordLength; i++) progressWord.push("-")
-}
+// function guessedword() {
+//   wordstatus = answer
+//     .split("")
+//     .map(letter => (guessed.indexOf(letter) >= 0 ? letter : " _ "))
+//     .join("")
+//   document.getElementById("otherword").innerHTML = wordstatus
+
+// var progressWord = []
+// for (var i = 0; i < wordLength; i++) progressWord.push("-")
