@@ -19,11 +19,28 @@ for (i = 0; i < selectedWord.length; i++) {
 console.log(hidden)
 document.querySelector("#nextWord").innerHTML = hidden.join("")
 
-$("button").on("click", function() {
+// ***When a button is pressed, check that button's value against the characters in 'hidden' IF the value of button is the same as one of the characters in 'hidden'- take away the underscore, show the letter value.***
+
+$("button").on("click", function(e) {
   var letter = $(this).html()
+  if (letter === hidden.value) {
+    return console.log(letter)
+    // selectedWord.charAt(e)
+  }
 })
 
-// // var indie = word.charAt(letter)
+// newString = ''
+
+// document.querySelector('letter').addEventListener("click", function() {
+//   for(let i = 0; i < word.length; i++){
+// 		if(char.value == selectedWord.charAt(i)){
+// 				let split = selectedWord.split('')
+// 					spl[i] = char.value
+// // 						newString = spl.join('')
+// }
+// )
+
+//  var indie = selectedWord.charAt(letter)
 // for (i=0; i<hidden.length; i++) {
 //   if (i = indie) {
 //      = hidden.split()
