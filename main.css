@@ -25,6 +25,11 @@ body {
   width: 600px;
 }
 
+button {
+  padding: 10px;
+  margin: 10px;
+}
+
 #turns {
   position: absolute;
   top: 550px;
